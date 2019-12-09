@@ -1,2 +1,2 @@
-# letsrock.lib
+# Bitrix robots.txt check module
 
