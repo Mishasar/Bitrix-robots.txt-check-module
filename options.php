@@ -117,6 +117,6 @@ if ($request->isPost() && check_bitrix_sessid()) {
 
     AgentHelper::rebuildAgent();
 
-//    LocalRedirect($APPLICATION->GetCurPage() . "?mid=" . $moduleId . "&lang=" . LANG);
+    LocalRedirect($APPLICATION->GetCurPage() . "?mid=" . $moduleId . "&lang=" . LANG);
 }
 ?>
